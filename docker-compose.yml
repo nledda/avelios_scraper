@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  scraper:
+    build: .
+    container_name: linkedin-scraper
+    env_file: .env
+    environment:
+      - HEADLESS=True
+    volumes:
+      # Persist scraped output
+      - ./output:/app/output
+      # Persist runtime state
+      - ./data:/app/data
+      # Persist config
+      - ./config:/app/config
+      # Persist logs
+      - ./logs:/app/logs
+    restart: unless-stopped
+    shm_size: "2gb"

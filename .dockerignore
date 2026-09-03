@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+.DS_Store
+*.log
+*.pid
+output/
+data/
+logs/
+.env
+tests/
+V5_Stable.ipynb

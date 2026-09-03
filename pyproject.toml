@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "unit: fast tests with no external dependencies",
+    "integration: tests that hit external services (network, docker)",
+    "e2e: end-to-end tests requiring LinkedIn credentials",
+]

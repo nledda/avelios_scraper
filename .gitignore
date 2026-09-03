@@ -1,0 +1,21 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Output (scraped data)
+output/
+leads_backup/
+
+# Runtime state (sensitive/binary)
+data/linkedin/cookies.json
+data/linkedin/cookies.pkl
+data/linkedin/outreach.db
+data/linkedin/founder_tracker.db
+data/linkedin/.linkedin_lock
+
+# Logs
+logs/
+*.log
+*.pid

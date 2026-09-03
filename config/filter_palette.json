@@ -1,0 +1,43 @@
+{
+  "regions": [
+    {"id": "101282230", "text": "Deutschland"},
+    {"id": "100364837", "text": "Berlin"},
+    {"id": "101370791", "text": "München"},
+    {"id": "101149315", "text": "Hamburg"},
+    {"id": "103869825", "text": "Frankfurt am Main"},
+    {"id": "106381044", "text": "Köln"},
+    {"id": "100992264", "text": "Stuttgart"},
+    {"id": "101851930", "text": "Düsseldorf"},
+    {"id": "106891799", "text": "Leipzig"},
+    {"id": "101072060", "text": "Dresden"},
+    {"id": "101356765", "text": "Hannover"},
+    {"id": "101165590", "text": "Nürnberg"},
+    {"id": "103883259", "text": "Österreich"},
+    {"id": "106693272", "text": "Schweiz"},
+    {"id": "100459316", "text": "Wien"},
+    {"id": "106442142", "text": "Zürich"}
+  ],
+  "title_groups": [
+    [
+      {"id": "35", "text": "Founder"},
+      {"id": "103", "text": "Co-Founder"}
+    ],
+    [
+      {"text": "CEO"},
+      {"text": "Geschäftsführer"},
+      {"text": "Managing Director"}
+    ],
+    [
+      {"text": "CTO"},
+      {"text": "Gründer"},
+      {"text": "Gründerin"}
+    ],
+    [
+      {"text": "Mitgründer"},
+      {"text": "Mitgründerin"}
+    ]
+  ],
+  "cooldown_days": 14,
+  "max_new_lists_per_run": 2,
+  "pages_per_run_generated": 10
+}
